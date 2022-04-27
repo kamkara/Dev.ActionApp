@@ -41,7 +41,7 @@ gem 'bootstrap_form', '~> 5.0'
 #gem 'country_select', '~> 7.0'
 gem 'simple_form', '~> 5.1'
 gem 'friendly_id', '~> 5.4', '>= 5.4.2'
-
+gem 'devise', '~> 4.8', '>= 4.8.1'
 
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
