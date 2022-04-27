@@ -33,6 +33,17 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
+
+
+gem 'bootstrap', '~> 5.1', '>= 5.1.3'
+gem 'jquery-rails'
+gem 'bootstrap_form', '~> 5.0'
+#gem 'country_select', '~> 7.0'
+gem 'simple_form', '~> 5.1'
+gem 'friendly_id', '~> 5.4', '>= 5.4.2'
+
+
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
