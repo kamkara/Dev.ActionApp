@@ -1,3 +1,33 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 @import 'actiontext.css';
+
+
+// Mixins
+@import "mixins/media";
+
+// Configuration
+@import "config/animations";
+@import "config/variables";
+@import "config/reset";
+
+// Components
+@import "components/btn";
+@import "components/error_message";
+@import "components/form";
+@import "components/visually_hidden";
+@import "components/turbo_progress_bar";
+@import "components/navbar";
+@import "components/flash";
+@import "components/empty_state";
+@import "components/main";
+@import "components/style";
+@import "components/owl.carousel.min";
+@import "components/animate.min";
+@import "components/mobile_navbar";
+@import "components/pricing";
+
+
+// Layouts
+@import "layouts/container";
+@import "layouts/header";
