@@ -37,8 +37,8 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       t.string :full_name
       t.string :country
       t.string :country_code
-      t.string :contact, 
-      t.string :full_contact
+      t.string :contact, null: false
+      t.string :full_contact, null: false, unique: true
       t.string :gender
       t.string :slug
       t.string :category

@@ -6,4 +6,5 @@ import * as bootstrap from "bootstrap"
 
 //= require jquery3
 //= require popper
-//= require bootstrap
+//= require bootstrapimport "trix"
+import "@rails/actiontext"
