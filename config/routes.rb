@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
-  ### Dashabord ####
+  #### Accounted #####
+  get "connected", to:'accounted#signInMember'
+  get "adhesion", to:'accounted#signUpMember'
+  get "admin-accounted", to:'accounted#signUpAdmin'
+
+  #### Dashabord ####
   get "dashboard", to:'dashboard#index'
   get "parameters", to:'dashboard#accounted'
   get "member-space", to:'dashboard#membership'
