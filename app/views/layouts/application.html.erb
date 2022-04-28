@@ -15,11 +15,28 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Header -->
+     <%= render "shared/layouts/header" %>
+     
       <!-- Favicon-->
     <%= favicon_link_tag asset_path('ActionIco.jpg') %>
   </head>
 
   <body>
+  <style type="text/css">@media only screen and (min-width: 1025px) {
+  .hero--video-donate-form {
+    --hero_text_color: #fff;
+    --hero_bg_color: #000;
+  }
+
+  .hero--video-overlay {
+    --hero_bg_color: #000;
+  }
+}</style>
     <%= yield %>
+    <!--Footer  -->
+     <%= render "shared/layouts/footer" %>
   </body>
+
+
 </html>

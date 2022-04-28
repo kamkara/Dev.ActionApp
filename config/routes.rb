@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
-
+  
   #### Accounted #####
   get "connected", to:'accounted#signInMember'
   get "adhesion", to:'accounted#signUpMember'
@@ -15,7 +14,8 @@ Rails.application.routes.draw do
   get "agisons-ensemble", to:"involved#index"
   root to:'welcome#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
+  
+  devise_for :users
   # Defines the root path route ("/")
   # root "articles#index"
 end
